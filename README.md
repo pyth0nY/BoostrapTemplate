@@ -38,19 +38,6 @@ No necesitas instalar nada. Solo sigue estos pasos:
 
 ---
 
-## 📂 Estructura de la Plantilla
-
-Así están organizados los archivos. Simple y directo.
-.
-├── index.html
-├── galeria.html
-├── nosotros.html
-├── contactos.html
-└── images/
-├── pexels-damir-32730389.jpg
-├── pexels-hamza-yaich-1076080225-29914981.jpg
-└── pexels-pam-crane-3712506-30249654.jpg
-
 ---
 
 ## 🎨 Personalización
