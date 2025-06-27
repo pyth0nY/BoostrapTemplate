@@ -1,95 +1,67 @@
-# BoostrapTemplate
-¡Claro que sí! Aquí tienes un README.md bien completo y profesional para tu repo de GitHub. Está escrito en Markdown, así que solo tienes que copiar y pegar el contenido en un nuevo archivo llamado README.md en la raíz de tu proyecto.
+# Plantilla Bootstrap 5 - Sitio de Fotografía/Portafolio
 
-📸 Vivid Journeys - Sitio Web de Fotografía y Arte
+Esta es una plantilla multipágina, moderna y totalmente responsiva construida con **Bootstrap 5**. Fue creada para mejorar una web básica y repetitiva, convirtiéndola en una base sólida y atractiva para un portafolio de fotografía, una galería de arte o un blog de viajes.
 
-Este repositorio contiene el código fuente de Vivid Journeys, un sitio web conceptual para un colectivo de fotografía y arte. El proyecto fue desarrollado como una demostración de un diseño web moderno, limpio y totalmente responsivo utilizando Bootstrap 5.
+Está lista para usar y personalizar. Cero dependencias complicadas, solo HTML y CSS.
 
-El sitio transforma una plantilla básica en una experiencia de usuario atractiva y con una identidad de marca definida, enfocada en la presentación visual de obras artísticas.
+---
 
-✨ Vista Previa
+## ✅ Características
 
-(Te recomiendo reemplazar esta imagen con una captura de pantalla de tu propia página de inicio)
+*   **100% Responsiva:** Se adapta a cualquier pantalla (móvil, tablet, escritorio).
+*   **4 Páginas Pre-diseñadas:**
+    *   `index.html`: Una página de inicio con una sección "hero" impactante.
+    *   `galeria.html`: Una galería de imágenes con tarjetas (cards).
+    *   `nosotros.html`: Página para describir tu proyecto, misión o historia.
+    *   `contactos.html`: Formulario de contacto y mapa listos para usar.
+*   **Navegación Fija:** El menú se queda en la parte superior para fácil acceso (`sticky-top`).
+*   **Iconos Incluidos:** Usa **Bootstrap Icons** para un look más profesional.
+*   **Fácil de Personalizar:** Código limpio y comentado para que cambies textos, imágenes y colores sin problema.
 
-🚀 Características Principales
+---
 
-Diseño 100% Responsivo: Perfecta visualización en dispositivos móviles, tabletas y computadoras de escritorio gracias a Bootstrap 5.
+## 🚀 Cómo Empezar
 
-Interfaz Moderna: Un diseño limpio y actual, con un gran enfoque en la tipografía, los espacios en blanco y la jerarquía visual.
+No necesitas instalar nada. Solo sigue estos pasos:
 
-Navegación Intuitiva: Barra de navegación sticky-top que permanece visible al hacer scroll para un fácil acceso a todas las secciones.
+1.  **Clona el repositorio:**
+    ```bash
+    git clone https://github.com/tu-usuario/tu-repositorio.git
+    ```
 
-Componentes Reutilizables: Uso de componentes de Bootstrap como Cards, Formularios y el sistema de Grids para un desarrollo rápido y consistente.
+2.  **Entra en la carpeta:**
+    ```bash
+    cd tu-repositorio
+    ```
 
-Páginas con Propósito:
+3.  **Abre `index.html` en tu navegador y empieza a editar.**
 
-Inicio: Una impactante sección "Hero" para captar la atención del visitante.
+---
 
-Galería: Una cuadrícula elegante para mostrar las obras de arte con efectos hover.
+## 📂 Estructura de la Plantilla
 
-Nosotros: Una página que narra la historia, misión y visión de la marca de forma visualmente atractiva.
+Así están organizados los archivos. Simple y directo.
+.
+├── index.html
+├── galeria.html
+├── nosotros.html
+├── contactos.html
+└── images/
+├── pexels-damir-32730389.jpg
+├── pexels-hamza-yaich-1076080225-29914981.jpg
+└── pexels-pam-crane-3712506-30249654.jpg
 
-Contacto: Un formulario de contacto funcional y una sección de información con un mapa de Google integrado.
+---
 
-Iconografía Profesional: Integración de Bootstrap Icons para mejorar la usabilidad y el atractivo visual de la interfaz.
+## 🎨 Personalización
 
-Footer Completo: Un pie de página consistente en todo el sitio con información de copyright y enlaces a redes sociales.
+*   **Cambiar el nombre:** Busca "Vivid Journeys" en todos los archivos `.html` y reemplázalo por el tuyo.
+*   **Cambiar las imágenes:** Reemplaza las imágenes en la carpeta `/images` con las tuyas. Procura que tengan nombres de archivo similares o actualiza las rutas en el HTML.
+*   **Cambiar los textos:** Simplemente abre cualquier archivo `.html` y edita el contenido de texto directamente.
+*   **Cambiar colores:** Los colores principales (como el azul del botón `btn-primary`) se pueden cambiar fácilmente modificando las clases de Bootstrap o añadiendo tu propia hoja de estilos.
 
-🛠️ Tecnologías Utilizadas
+---
 
-HTML5: Para la estructura semántica del contenido.
+## 📄 Licencia
 
-CSS3: Para estilos personalizados y mejoras visuales (efectos hover, object-fit, etc.).
-
-Bootstrap 5.3: Framework principal para el diseño responsivo, componentes de UI y sistema de grid.
-
-Bootstrap Icons 1.11: Para la iconografía utilizada en el sitio.
-
-Google Maps: Integrado a través de un iframe en la página de contacto.
-
-⚙️ Instalación y Uso
-
-Este es un proyecto de sitio web estático. No requiere dependencias complejas ni procesos de compilación.
-
-Clona el repositorio:
-
-Generated bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-
-
-Navega al directorio del proyecto:
-
-Generated bash
-cd tu-repositorio
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-Bash
-IGNORE_WHEN_COPYING_END
-
-Abre el archivo index.html en tu navegador web preferido.
-
-¡Y listo! Ya puedes navegar por todo el sitio.
-
-💡 Consejo Profesional: Para una mejor experiencia de desarrollo, puedes usar una extensión como Live Server en Visual Studio Code, que recargará automáticamente la página en el navegador cada vez que guardes un cambio.
-
-📂 Estructura del Proyecto
-Generated code
-vivid-journeys/
-├── 📄 index.html       # Página de inicio con la sección Hero y obras destacadas.
-├── 📄 galeria.html     # Página que muestra todas las obras en venta.
-├── 📄 nosotros.html    # Página "Sobre Nosotros" que combina misión, visión e historia.
-├── 📄 contactos.html   # Página con el formulario de contacto y mapa.
-└── 📁 images/          # Carpeta que contiene todas las imágenes del sitio.
-    ├── pexels-damir-32730389.jpg
-    ├── pexels-hamza-yaich-1076080225-29914981.jpg
-    └── pexels-pam-crane-3712506-30249654.jpg
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
-📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles (si decides añadir uno).
+Esta plantilla es de uso libre. Licencia MIT.
